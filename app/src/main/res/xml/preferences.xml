@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    app:navigationContentDescription="@string/abc_action_bar_up_description"
+    android:background="?attr/colorPrimary"
+    app:navigationIcon="?attr/homeAsUpIndicator"
+    app:title="@string/action_settings">
+
+
+
+    <PreferenceCategory
+        android:title="   ">
+
+        <EditTextPreference
+            android:title="Distance"
+            android:key="distance"
+            android:summary="Distance for location alert" />
+
+
+        <CheckBoxPreference android:title="Notifications"
+            android:defaultValue="false"
+            android:summary="This option if selected will allow the application to send notifications."
+            android:key="@string/sendNotifications" />
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>

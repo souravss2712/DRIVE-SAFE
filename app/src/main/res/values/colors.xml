@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ec1233</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cast_expanded_controller_text_color">#F44336</color>
+    <color name="cast_libraries_material_featurehighlight_text_body_color">#3F51B5</color>
+    <color name="cast_intro_overlay_button_background_color">#DDAD1D</color>
+</resources>
